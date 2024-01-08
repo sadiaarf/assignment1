@@ -1,11 +1,12 @@
 .main-title {
-    color: #e90808;
+    color: #d52020;
     text-align: center;
-    font-family: Merriweather;
-    font-weight: 400;
-    line-height: 40px;
-}
-.header{
-    background-image: url('../assignment1/resources/new\ year.png');
+    background-image: url('../assignment1/resources/banner.png');
+    height: 600px;
+    width: 100%px;
+   background-repeat: no-repeat;
     border-radius: 15px;
+    padding: 180px 50px;
+    margin: 25px 10px;
+    justify-content:space-between;
 }
