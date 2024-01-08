@@ -1,12 +1,49 @@
+/* new year related style */
 .main-title {
-    color: #d52020;
+    color: #fbf7f7;
     text-align: center;
+    font-size: larger;
     background-image: url('../assignment1/resources/banner.png');
-    height: 600px;
-    width: 100%px;
-   background-repeat: no-repeat;
-    border-radius: 15px;
+    height: 400px;
+    width: 1200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
     padding: 180px 50px;
-    margin: 25px 10px;
-    justify-content:space-between;
+    margin: 25px auto;
+
+}
+
+/* discount realted style */
+.color {
+    color: red;
+    text-align: center;
+}
+
+.discount {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* party realted styles */
+.party {
+    color: white;
+    background-image: url('resources/year.png'), url('resources/Vectorrr.png');
+
+    height: 400px;
+    width: 1200px;
+    background-repeat: no-repeat;
+    background-position: top right, top right;
+    border-radius: 20px;
+    padding: 180px 50px;
+    margin: 25px auto;
+}
+
+.btn {
+    background-color: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
 }
