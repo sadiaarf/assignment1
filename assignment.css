@@ -12,7 +12,8 @@
     padding: 180px 50px;
     margin: 25px auto;
 }
-.title{
+
+.title {
     font-size: 20px;
     color: #fbf7f7;
 }
@@ -22,11 +23,13 @@
     color: red;
     text-align: center;
 }
-#OFF{
+
+#OFF {
     font-size: 50px;
     font-weight: 700px;
     font-family: Inter;
 }
+
 .discount {
     text-align: center;
     display: block;
@@ -49,42 +52,79 @@
     margin: 80px auto;
 }
 
-.btn {
-    background-color: none;
+.btn-primary{
+    background-color:none;
     border: none;
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 17px;
+    font-weight: 500;
 }
 
 /* information related styles */
-.font{
+.font {
     color: red;
-
-
 }
-.information{
+.information {
     text-align: center;
     font-size: large;
-   padding: 170px;
+    padding: 170px;
 }
-.info{
-    background: linear-gradient(rgb(255, 200, 201),rgb(252, 244, 244));
+
+.info {
+    background: linear-gradient(rgb(255, 200, 201), rgb(252, 244, 244));
     background-position: center;
     height: 500px;
     width: 1300px;
     margin: -120px auto;
     border-radius: 10px;
 }
+.btn{
+    color: #fbf7f7;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+    padding: 13px;
+    font-size: 11px;
+}
 /* offer part styles */
-#BEST{
+#BEST {
     color: red;
+    font-family: Inter;
 }
-.offer{
+
+/* .offer {
+    text-align: right;
+} */
+
+.border-radius {
+   display: flex;
+align-items: center;
+    border-radius: 50%;
+    padding: 170px;
+    justify-content: center;
+   
+}
+.radius{
+    padding:20px;
+    border-radius: 50%;
+border: 8px solid red;
+height: 300px;
+    width: 300px;
+}
+.about-the-offer{
     text-align: left;
+  margin-left: 150px;
+  margin-top: -450px;
 }
-
-
-
+.the-offer{
+    margin-left: 900px;
+    margin-top: -170px;
+}
+.font-style{
+    color: rgb(119, 117, 117);
+}
+.font-family{
+    font-family:  Merriweather;
+}
 
 
 
