@@ -1,4 +1,8 @@
 /* new year related style */
+.head{
+    padding: 85px;
+    padding-top: 0 ;
+}
 .main-title {
     color: #fbf7f7;
     text-align: center;
@@ -86,6 +90,9 @@
     font-size: 11px;
 }
 /* offer part styles */
+.main{
+    padding: 85px;
+}
 #BEST {
     color: red;
     font-family: Inter;
@@ -112,12 +119,16 @@ height: 300px;
 }
 .about-the-offer{
     text-align: left;
-  margin-left: 150px;
-  margin-top: -450px;
+  margin-left: 110px;
+  margin-top: -470px;
 }
 .the-offer{
-    margin-left: 900px;
+    margin-left:900px;
     margin-top: -170px;
+}
+.item{
+    margin: 2px;
+    padding-top: 70px;
 }
 .font-style{
     color: rgb(119, 117, 117);
@@ -125,8 +136,64 @@ height: 300px;
 .font-family{
     font-family:  Merriweather;
 }
+.images{
+    display: inline-block;
+    display: flex;
+    gap: 20px;
+    /* display: block; */
+    /* padding: 30px; */
+}
+.foot{
+    padding: 85px;
 
+}
+.Subscribe{
+    padding: 20px;
+    background: linear-gradient( rgb(252, 244, 244));
+    background-position: center;
+    height: 500px;
+    width: 1300px;
+    margin: -120px auto;
+    border-radius: 10px;
+    text-align: center;
+}
+.type{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: -15px;
+margin-top: -300px;
+  
+}
+#gmail{
+    color:rgb(139, 135, 135);
+    background-color: rgb(150, 149, 149);
+    border: 5px;
+    padding:5px;
+    border-radius: 0%;
+border: 2px solid rgb(150, 149, 149);
 
-
-
+}
+#Subscribe{
+    color: black;
+    background-color: red;
+    border: px;
+    padding:5px;
+    border-radius: 5%;
+border: 2px solid red;
+}
+.address{
+    color: #fbf7f7;
+}
+.unsubscribe{
+background-color: black;
+background-attachment: fixed;
+    
+    height: 500px;
+    width: 1300px;
+}
+.img{
+justify-content: center;
+}
 
