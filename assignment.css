@@ -1,8 +1,9 @@
 /* new year related style */
-.head{
+.head {
     padding: 85px;
-    padding-top: 0 ;
+    padding-top: 0;
 }
+
 .main-title {
     color: #fbf7f7;
     text-align: center;
@@ -56,8 +57,8 @@
     margin: 80px auto;
 }
 
-.btn-primary{
-    background-color:none;
+.btn-primary {
+    background-color: none;
     border: none;
     font-size: 17px;
     font-weight: 500;
@@ -67,6 +68,7 @@
 .font {
     color: red;
 }
+
 .information {
     text-align: center;
     font-size: large;
@@ -81,7 +83,8 @@
     margin: -120px auto;
     border-radius: 10px;
 }
-.btn{
+
+.btn {
     color: #fbf7f7;
     background-color: red;
     border-radius: 5px;
@@ -89,111 +92,124 @@
     padding: 13px;
     font-size: 11px;
 }
+
 /* offer part styles */
-.main{
+.main {
     padding: 85px;
 }
+
 #BEST {
     color: red;
     font-family: Inter;
 }
 
-/* .offer {
-    text-align: right;
-} */
-
 .border-radius {
-   display: flex;
-align-items: center;
+    display: flex;
+    align-items: center;
     border-radius: 50%;
     padding: 170px;
     justify-content: center;
-   
+
 }
-.radius{
-    padding:20px;
+
+.radius {
+    padding: 20px;
     border-radius: 50%;
-border: 8px solid red;
-height: 300px;
+    border: 8px solid red;
+    height: 300px;
     width: 300px;
 }
-.about-the-offer{
+
+.about-the-offer {
     text-align: left;
-  margin-left: 110px;
-  margin-top: -470px;
+    margin-left: 110px;
+    margin-top: -470px;
 }
-.the-offer{
-    margin-left:900px;
+
+.the-offer {
+    margin-left: 900px;
     margin-top: -170px;
 }
-.item{
+
+.item {
     margin: 2px;
     padding-top: 70px;
 }
-.font-style{
+
+.font-style {
     color: rgb(119, 117, 117);
 }
-.font-family{
-    font-family:  Merriweather;
+
+.font-family {
+    font-family: Merriweather;
 }
-.images{
+
+.images {
     display: inline-block;
     display: flex;
     gap: 20px;
-    /* display: block; */
-    /* padding: 30px; */
+
 }
-.foot{
+
+.foot {
     padding: 85px;
 
 }
-.Subscribe{
-    padding: 20px;
-    background: linear-gradient( rgb(252, 244, 244));
+
+.Subscribe {
+    padding: -5px;
+    background: linear-gradient(rgb(252, 244, 244));
     background-position: center;
     height: 500px;
     width: 1300px;
     margin: -120px auto;
     border-radius: 10px;
     text-align: center;
+
 }
-.type{
-   
+
+.type {
+
     display: flex;
     justify-content: center;
     align-items: center;
     gap: -15px;
-margin-top: -300px;
-  
-}
-#gmail{
-    color:rgb(139, 135, 135);
-    background-color: rgb(150, 149, 149);
-    border: 5px;
-    padding:5px;
-    border-radius: 0%;
-border: 2px solid rgb(150, 149, 149);
+    margin-top: -320px;
+
 
 }
-#Subscribe{
+
+#gmail {
+    color: rgb(139, 135, 135);
+    background-color: rgb(150, 149, 149);
+    border: 5px;
+    padding: 5px;
+    border-radius: 0%;
+    border: 2px solid rgb(150, 149, 149);
+
+}
+
+#Subscribe {
     color: black;
     background-color: red;
     border: px;
-    padding:5px;
+    padding: 5px;
     border-radius: 5%;
-border: 2px solid red;
+    border: 2px solid red;
 }
-.address{
+
+.address {
     color: #fbf7f7;
 }
-.unsubscribe{
-background-color: black;
-background-attachment: fixed;
-    
+
+.unsubscribe {
+    background-color: black;
+    background-attachment: fixed;
+
     height: 500px;
     width: 1300px;
 }
-.img{
-justify-content: center;
-}
 
+.img {
+    justify-content: center;
+}
