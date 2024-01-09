@@ -2,7 +2,7 @@
 .main-title {
     color: #fbf7f7;
     text-align: center;
-    font-size: larger;
+    font-size: 30px;
     background-image: url('../assignment1/resources/banner.png');
     height: 400px;
     width: 1200px;
@@ -11,7 +11,10 @@
     border-radius: 20px;
     padding: 180px 50px;
     margin: 25px auto;
-
+}
+.title{
+    font-size: 20px;
+    color: #fbf7f7;
 }
 
 /* discount realted style */
@@ -19,12 +22,17 @@
     color: red;
     text-align: center;
 }
-
+#OFF{
+    font-size: 50px;
+    font-weight: 700px;
+    font-family: Inter;
+}
 .discount {
     text-align: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    font-weight: bolder;
 }
 
 /* party realted styles */
@@ -38,7 +46,7 @@
     background-position: top right, top right;
     border-radius: 20px;
     padding: 180px 50px;
-    margin: 25px auto;
+    margin: 80px auto;
 }
 
 .btn {
@@ -47,3 +55,38 @@
     font-size: 20px;
     font-weight: 700;
 }
+
+/* information related styles */
+.font{
+    color: red;
+
+
+}
+.information{
+    text-align: center;
+    font-size: large;
+   padding: 170px;
+}
+.info{
+    background: linear-gradient(rgb(255, 200, 201),rgb(252, 244, 244));
+    background-position: center;
+    height: 500px;
+    width: 1300px;
+    margin: -120px auto;
+    border-radius: 10px;
+}
+/* offer part styles */
+#BEST{
+    color: red;
+}
+.offer{
+    text-align: left;
+}
+
+
+
+
+
+
+
+
